@@ -28,11 +28,8 @@ st.sidebar.markdown(f'## You have **{len(png_files)}** certificates. :trophy:')
 st.sidebar.markdown('## Select a Certificate :scroll:')
 selected_cert = st.sidebar.selectbox('', png_files)
 
-# Extract the institution names from the filenames
-institutions = df[["Institute"]]
-
 # Get the unique institutions
-unique_institutions = set(institutions)
+unique_institutions = set(df["Institute"].dropna())
 
 # Display the unique institutions in the sidebar
 st.sidebar.markdown(f'<p style="color:green;font-size:20px;">From Institutions: {", ".join(unique_institutions).title()}</p>', unsafe_allow_html=True)
