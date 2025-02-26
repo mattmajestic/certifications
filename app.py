@@ -29,7 +29,7 @@ st.sidebar.markdown('## Select a Certificate :scroll:')
 selected_cert = st.sidebar.selectbox('', png_files)
 
 # Extract the institution names from the filenames
-institutions = [filename.split('-')[0] for filename in png_files]
+institutions = df[["Institute"]]
 
 # Get the unique institutions
 unique_institutions = set(institutions)
