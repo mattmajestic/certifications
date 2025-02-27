@@ -1,8 +1,10 @@
-version: '3'
+
 services:
   app:
+    container_name: coursera-certifications
     build: .
     ports:
-      - 8501:8501
+      - "8501:8501"
     volumes:
       - .:/app
+    restart: unless-stopped
