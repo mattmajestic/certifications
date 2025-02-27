@@ -74,26 +74,28 @@ st.sidebar.markdown(
     unsafe_allow_html=True
 )
 
-# 
-st.markdown(
-    """
-    <style>
-    ul {
-        list-style: none !important;  /* Ensures bullet points are removed */
-        padding-left: 0px !important;
+# Custom CSS to inject
+custom_css = """
+<style>
+    /* Custom style for the active tab */
+    .stTabs > .tablist > .react-tabs__tab--selected {
+        background-color: #0e1117;
+        color: #ffffff;
+        font-family: 'Courier New', Courier, monospace;
     }
-    li {
-        font-size: 18px;  /* Make text slightly larger */
-        margin-bottom: 5px;
+    /* Custom style for all tabs */
+    .stTabs > .tablist > .react-tabs__tab {
+        background-color: #e8e8e8;
+        color: #4f4f4f;
+        font-family: 'Courier New', Courier, monospace;
     }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+</style>
+"""
 
+st.markdown(custom_css, unsafe_allow_html=True)
 
 # Tabs for viewing certificates and displaying a table
-tab1, tab2 = st.tabs(["📄 View Certificate", "📋 Certificates Table"])
+tab1, tab2 = st.tabs(["📄 Selected Certificate", "📋 Certificates Table"])
 
 with tab1:
     st.markdown(f"### 📜 Viewing Certificate: {selected_cert_name}")
@@ -107,5 +109,5 @@ with tab1:
 
 with tab2:
     st.markdown("### 📜 All Certificates")
-    display_df = df.drop(columns=["Filename"])  # Hide Filename column
-    st.dataframe(display_df.reset_index(drop=True), width=1000, height=600)
+    display_df = df.drop(columns=["Filename","URL"])
+    st.dataframe(display_df, hide_index=True, width=1000, height=600)

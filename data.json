@@ -3,79 +3,92 @@
       "Name": "AWS Cloud Technical Essentials",
       "Institute": "AWS",
       "Platform": "Coursera",
-      "Filename": "aws-cloud.png"
+      "Filename": "aws-cloud.png",
+      "URL": "https://www.coursera.org/verify/YGS7FPNYMNPT"
     },
     {
       "Name": "Introduction to IT & AWS Cloud",
       "Institute": "AWS",
       "Platform": "Coursera",
-      "Filename": "aws-intro.png"
+      "Filename": "aws-intro.png",
+      "URL": "https://www.coursera.org/verify/KYEETZUH3VW8"
     },
     {
       "Name": "Blockchain Basics",
       "Institute": "University at Buffalo",
       "Platform": "Coursera",
-      "Filename": "buffalo-blockchain.png"
+      "Filename": "buffalo-blockchain.png",
+      "URL": "https://www.coursera.org/verify/KJDARNKQ3SZB"
     },
     {
       "Name": "Tensorflow for AI",
       "Institute": "DeepLearning.ai",
       "Platform": "Coursera",
-      "Filename": "deeplearning-tensorflow.png"
+      "Filename": "deeplearning-tensorflow.png",
+      "URL": "https://www.coursera.org/verify/NJD5AKF68TTR"
     },
     {
       "Name": "DeFi Primitives",
       "Institute": "Duke University",
       "Platform": "Coursera",
-      "Filename": "duke-defi.png"
+      "Filename": "duke-defi.png",
+      "URL": "https://www.coursera.org/verify/7V9BFVMS7MLJ"
     },
     {
       "Name": "JavaScript Fundamentals",
       "Institute": "Duke University",
       "Platform": "Coursera",
-      "Filename": "duke-web-dev.png"
+      "Filename": "duke-web-dev.png",
+      "URL": "https://www.coursera.org/verify/RHFNDA9AFS62"
     },
     {
       "Name": "Consulting Tools and Tips",
       "Institute": "Emory University",
       "Platform": "Coursera",
-      "Filename": "emory-consulting.png"
+      "Filename": "emory-consulting.png",
+      "URL": "https://www.coursera.org/verify/RET2GSSFCD5Y"
     },
     {
       "Name": "Core Infrastructure",
       "Institute": "Google",
       "Platform": "Coursera",
-      "Filename": "google-cloud-infrx.png"
+      "Filename": "google-cloud-infrx.png",
+      "URL": "https://www.coursera.org/verify/Q3SAPCQMU528"
     },
     {
       "Name": "Customer Analytics",
       "Institute": "University of Pennsylvania",
       "Platform": "Coursera",
-      "Filename": "penn-analytics.png"
+      "Filename": "penn-analytics.png",
+      "URL": "https://www.coursera.org/verify/PDSXUP99ZUYZ"
     },
     {
       "Name": "Data Decision Making",
       "Institute": "PwC",
       "Platform": "Coursera",
-      "Filename": "pwc-data-decisions.png"
+      "Filename": "pwc-data-decisions.png",
+      "URL": "https://www.coursera.org/verify/AQWGNNSMN9Q8"
     },
     {
       "Name": "Foundations of Project Management",
       "Institute": "Google",
       "Platform": "Coursera",
-      "Filename": "google-pm.png"
+      "Filename": "google-pm.png",
+      "URL": "https://www.coursera.org/verify/2VTUYX7HZANF"
     },
     {
       "Name": "Quantitative Modeling Fundamentals",
       "Institute": "University of Pennsylvania",
       "Platform": "Coursera",
-      "Filename": "penn-quant-modeling.png"
+      "Filename": "penn-quant-modeling.png",
+      "URL": "https://www.coursera.org/verify/PDSXUP99ZUYZ"
     },
     {
       "Name": "Intro to IBM Cloud",
       "Institute": "IBM",
       "Platform": "Coursera",
-      "Filename": "ibm-cloud.png"
+      "Filename": "ibm-cloud.png",
+      "URL": "https://www.coursera.org/verify/PDSXUP99ZUYZ"
     },
     {
       "Name": "Introduction to Trading",
@@ -153,7 +166,7 @@
       "Name": "Databricks Fundamentals",
       "Institute": "Databricks",
       "Platform": "Databricks Academy",
-      "Filename": "databricks-fundamentals.png"
+      "Filename": "databricks-fundations.png"
     }
   ]
   

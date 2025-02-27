@@ -6,6 +6,11 @@ This is a Streamlit app that allows you to view your Coursera certificates. The 
 
 The live app is hosted on Streamlit and can be accessed at [https://coursera-certifications.streamlit.app/](https://coursera-certifications.streamlit.app/)
 
+## Files to Update 📂
+
+- data.json
+- img/ (For PNGs)
+
 ## How to Run Locally 🛠
 
 ```
