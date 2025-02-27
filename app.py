@@ -109,5 +109,5 @@ with tab1:
 
 with tab2:
     st.markdown("### 📜 All Certificates")
-    display_df = df.drop(columns=["Filename","URL"])
+    display_df = df.drop(columns=["Filename"])
     st.dataframe(display_df, hide_index=True, width=1000, height=600)
