@@ -46,28 +46,22 @@ selected_cert_filename = cert_map[selected_cert_name]
 
 # Apply custom global CSS (removes bullet points from lists)
 st.markdown(
-    """
-    <style>
+    '''<style>
     ul { 
         list-style-type: none;  /* Removes bullet points */
         padding-left: 0;  /* Removes extra padding */
     }
-    </style>
-    """,
-    unsafe_allow_html=True
+    </style>''',unsafe_allow_html=True
 )
 
 # Get unique institutions if available
 if "Issuer" in df.columns:
     unique_issuers = sorted(df["Issuer"].dropna().unique())
     st.sidebar.markdown("## 🎓 Certificate Issuers")
-    st.sidebar.markdown('<ul style="list-style: none; padding-left: 0;">', unsafe_allow_html=True)
-
+    st.sidebar.markdown("<ul>", unsafe_allow_html=True)
     for inst in unique_issuers:
-        st.sidebar.markdown(f"<li style='list-style-type: none;'>✅ {inst}</li>", unsafe_allow_html=True)
-
+        st.sidebar.markdown(f"<li>✅ {inst}</li>", unsafe_allow_html=True)
     st.sidebar.markdown("</ul>", unsafe_allow_html=True)
-
 
 st.sidebar.markdown(
     """
