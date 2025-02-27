@@ -66,13 +66,13 @@
       "Filename": "google-pm.png"
     },
     {
-      "Name": "Fundamentals of Quantitative Modeling",
+      "Name": "Quantitative Modeling Fundamentals",
       "Institute": "University of Pennsylvania",
       "Platform": "Coursera",
       "Filename": "penn-quant-modeling.png"
     },
     {
-      "Name": "Introduction to Cloud Computing",
+      "Name": "Intro to IBM Cloud",
       "Institute": "IBM",
       "Platform": "Coursera",
       "Filename": "ibm-cloud.png"
@@ -120,10 +120,10 @@
       "Filename": "google-r-data-analysis.png"
     },
     {
-      "Name": "GCP: Core Infrastructure",
+      "Name": "GCP Core Infrastructure",
       "Institute": "Google",
       "Platform": "Coursera",
-      "Filename": "google-infrx.png"
+      "Filename": "google-cloud-infrx.png"
     },
     {
       "Name": "Microsoft Azure Cloud Services",
