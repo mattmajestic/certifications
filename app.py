@@ -58,13 +58,16 @@ st.markdown(
 )
 
 # Get unique institutions if available
-if "Institute" in df.columns:
-    unique_institutions = sorted(df["Institute"].dropna().unique())
+if "Issuer" in df.columns:
+    unique_issuers = sorted(df["Issuer"].dropna().unique())
     st.sidebar.markdown("## 🎓 Certificate Issuers")
-    st.sidebar.markdown("<ul>", unsafe_allow_html=True)
-    for inst in unique_institutions:
-        st.sidebar.markdown(f"<li>✅ {inst}</li>", unsafe_allow_html=True)
+    st.sidebar.markdown('<ul style="list-style: none; padding-left: 0;">', unsafe_allow_html=True)
+
+    for inst in unique_issuers:
+        st.sidebar.markdown(f"<li style='list-style-type: none;'>✅ {inst}</li>", unsafe_allow_html=True)
+
     st.sidebar.markdown("</ul>", unsafe_allow_html=True)
+
 
 st.sidebar.markdown(
     """
