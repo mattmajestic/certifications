@@ -27,7 +27,13 @@ cert_map = dict(zip(df["Name"], df["Filename"]))
 
 # Title and subtitle
 st.title('🎓 Coursera Certificates Viewer')
-st.markdown("Easily view and manage your Coursera certificates. 🏆")
+st.markdown(
+    """
+    [![GitHub Repo](https://img.shields.io/badge/GitHub-View_Repo-white?style=for-the-badge&logo=github)](https://github.com/mattmajestic/certifications)
+    [![YouTube](https://img.shields.io/badge/Subscribe-Majestic_Coding-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@majesticcoding/videos)
+    """,
+    unsafe_allow_html=True
+)
 
 # Sidebar
 st.sidebar.markdown(f"## 📜 You have **{len(cert_map)}** certificates.")
@@ -59,6 +65,24 @@ if "Institute" in df.columns:
     for inst in unique_institutions:
         st.sidebar.markdown(f"<li>✅ {inst}</li>", unsafe_allow_html=True)
     st.sidebar.markdown("</ul>", unsafe_allow_html=True)
+
+# 
+st.markdown(
+    """
+    <style>
+    ul {
+        list-style: none !important;  /* Ensures bullet points are removed */
+        padding-left: 0px !important;
+    }
+    li {
+        font-size: 18px;  /* Make text slightly larger */
+        margin-bottom: 5px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 # Tabs for viewing certificates and displaying a table
 tab1, tab2 = st.tabs(["📄 View Certificate", "📋 Certificates Table"])

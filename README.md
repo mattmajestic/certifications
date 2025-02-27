@@ -21,4 +21,4 @@ docker compose up
 
 ## 📺 Majestic Coding on YT
 
-Check out my [YouTube channel](https://www.youtube.com/@majesticcoding/videos) for more cool projects!
+[![YouTube](https://img.shields.io/badge/Subscribe-Majestic_Coding-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@majesticcoding/videos)
