@@ -92,7 +92,7 @@ custom_css = """
 st.markdown(custom_css, unsafe_allow_html=True)
 
 # Tabs for viewing certificates and displaying a table
-tab1, tab2 = st.tabs(["📄 Selected Certificate", "📋 Certificates Table"])
+tab1, tab2 = st.tabs(["📄 Selected Certificate", "🗂️ Certificates Table"])
 
 with tab1:
     st.markdown(f"### 📜 Viewing Certificate: {selected_cert_name}")
