@@ -138,6 +138,12 @@
       "Filename": "msft-serverless.png"
     },
     {
+      "Name": "Orchestrating Data with Azure Data Factory",
+      "Issuer": "Microsoft",
+      "Platform": "Coursera",
+      "Filename": "ms-adf.png"
+    },
+    {
       "Name": "Data Analysis with R Programming",
       "Issuer": "Google",
       "Platform": "Coursera",
