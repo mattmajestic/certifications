@@ -12,16 +12,40 @@
       "Filename": "aws-intro.png"
     },
     {
-      "Name": "Blockchain Basics",
-      "Issuer": "University at Buffalo",
+      "Name": "Quantitative Modeling Fundamentals",
+      "Issuer": "University of Pennsylvania",
       "Platform": "Coursera",
-      "Filename": "buffalo-blockchain.png"
+      "Filename": "penn-quant-modeling.png"
+    },
+    {
+      "Name": "MLOps Tools: MLflow and HuggingFace",
+      "Issuer": "Duke University",
+      "Platform": "Coursera",
+      "Filename": "duke-mlops.png"
     },
     {
       "Name": "Tensorflow for AI",
       "Issuer": "DeepLearning.ai",
       "Platform": "Coursera",
       "Filename": "deeplearning-tensorflow.png"
+    },
+    {
+      "Name": "Production Machine Learning Systems",
+      "Issuer": "Google",
+      "Platform": "Coursera",
+      "Filename": "google-prod-ml.png"
+    },
+    {
+      "Name": "Supervised Machine Learning: Regression and Classification",
+      "Issuer": "Stanford University",
+      "Platform": "Coursera",
+      "Filename": "stanford-machine-learning.png"
+    },
+    {
+      "Name": "The Full Stack",
+      "Issuer": "Meta",
+      "Platform": "Coursera",
+      "Filename": "meta-full-stack.png"
     },
     {
       "Name": "DeFi Primitives",
@@ -40,6 +64,12 @@
       "Issuer": "Emory University",
       "Platform": "Coursera",
       "Filename": "emory-consulting.png"
+    },
+    {
+      "Name": "Blockchain Basics",
+      "Issuer": "University at Buffalo",
+      "Platform": "Coursera",
+      "Filename": "buffalo-blockchain.png"
     },
     {
       "Name": "Core Infrastructure",
@@ -64,12 +94,6 @@
       "Issuer": "Google",
       "Platform": "Coursera",
       "Filename": "google-pm.png"
-    },
-    {
-      "Name": "Quantitative Modeling Fundamentals",
-      "Issuer": "University of Pennsylvania",
-      "Platform": "Coursera",
-      "Filename": "penn-quant-modeling.png"
     },
     {
       "Name": "Intro to IBM Cloud",
@@ -130,24 +154,6 @@
       "Issuer": "Microsoft",
       "Platform": "Coursera",
       "Filename": "msft-cloud.png"
-    },
-    {
-      "Name": "Production Machine Learning Systems",
-      "Issuer": "Google",
-      "Platform": "Coursera",
-      "Filename": "google-prod-ml.png"
-    },
-    {
-      "Name": "Supervised Machine Learning: Regression and Classification",
-      "Issuer": "Stanford University",
-      "Platform": "Coursera",
-      "Filename": "stanford-machine-learning.png"
-    },
-    {
-      "Name": "The Full Stack",
-      "Issuer": "Meta",
-      "Platform": "Coursera",
-      "Filename": "meta-full-stack.png"
     },
     {
       "Name": "Databricks Fundamentals",
